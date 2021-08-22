@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IMC by @evercarneiro</string>
+    <string name="IMC">IMC</string>
+    <string name="hint_altura">altura (ex. 165cm)</string>
+    <string name="hint_peso">peso (ex. 79Kg)</string>
+    <string name="calcular">CALCULAR</string>
+</resources>

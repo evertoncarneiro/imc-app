@@ -15,9 +15,10 @@
         android:layout_height="wrap_content"
         android:text="@string/IMC"
         app:layout_constraintBottom_toTopOf="@+id/alturaEDT"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553"
-        tools:layout_editor_absoluteX="33dp"
         tools:visibility="visible" />
 
     <EditText
@@ -74,10 +75,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/alturaEDT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.554"
-        app:srcCompat="@mipmap/fat_slim_foreground"
-        tools:layout_editor_absoluteX="262dp" />
+        app:srcCompat="@mipmap/fat_slim_foreground" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

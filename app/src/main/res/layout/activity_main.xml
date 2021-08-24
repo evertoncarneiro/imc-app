@@ -55,14 +55,14 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/calcularBTN"
         style="@style/buttonBTN"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginBottom="32dp"
-        android:text="@string/calcular"
+        android:text="@string/calcularBTN"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
